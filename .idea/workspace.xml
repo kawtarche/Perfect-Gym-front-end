@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e0e3ba4-b5e2-49a3-b403-d459e5bb13a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/classes.html" afterDir="false" />
+    <list default="true" id="3e0e3ba4-b5e2-49a3-b403-d459e5bb13a1" name="Default Changelist" comment="début de développement de classes youpiiii">
+      <change afterPath="$PROJECT_DIR$/style/classes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -49,6 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -79,8 +82,16 @@
       <workItem from="1602961916319" duration="7945000" />
       <workItem from="1603020674944" duration="22239000" />
       <workItem from="1603131621052" duration="3380000" />
-      <workItem from="1603135572811" duration="734000" />
+      <workItem from="1603135572811" duration="5474000" />
     </task>
+    <task id="LOCAL-00001" summary="début de développement de classes youpiiii">
+      <created>1603136590915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603136590915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,11 +108,19 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="début de développement de classes youpiiii" />
+    <option name="LAST_COMMIT_MESSAGE" value="début de développement de classes youpiiii" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1603023566295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1603023566295" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603136607045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603136607045" />
     <state x="337" y="165" key="run.anything.popup" timestamp="1602078707327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

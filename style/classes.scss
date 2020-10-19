@@ -1,0 +1,22 @@
+$darkblue:#02b6fc;
+body {
+  margin: 0;
+}
+
+section.baniere {
+  background-image: url("../resources/class_img.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 400px;
+  border-bottom: 10px solid $darkblue;
+  padding-left: 143px;
+
+  div.page-name {
+    color: white;
+    padding: 12px 12px;
+    background-color: $darkblue;
+    width: fit-content;
+    font-size: 24px;
+  }
+}
