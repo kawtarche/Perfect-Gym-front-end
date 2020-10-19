@@ -1,0 +1,480 @@
+/* 1) BANIERE*/
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    background-color: #F3F3F3;
+}
+
+section.contact div.reseau-sociaux ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+section.contact div.reseau-sociaux ul li i {
+    list-style-type: none;
+    color: white;
+}
+
+div.reseau-sociaux ul {
+    display: flex;
+    flex-direction: row;
+}
+
+section.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    color: white;
+}
+
+section.contact div.phone-number i.fas {
+    margin-right: 12px;
+}
+
+header.header {
+    margin-bottom: 0px;
+}
+
+/* 2) logo + nav*/
+
+div.nav {
+    background-color: #02b6fc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header div.baniere img {
+    width: 100%;
+}
+div.nav ul.liste {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+div.nav ul.liste li.button a {
+    text-decoration: none;
+
+    padding: 9px 15px;
+    color: white;
+}
+
+div.nav ul.liste li.button a:hover {
+    text-decoration: none;
+
+    border-radius: 5px;
+    padding: 9px 15px;
+    color: #02b6fc;
+    background-color: white;
+}
+
+/* 2) ABOUT US*/
+section.aboutus {
+    background-color: #00BFF0;
+}
+
+div.informations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-bottom: 50px;
+}
+
+div.informations div.text {
+    text-align: center;
+    width: 30%;
+    margin-left: 60px;
+}
+
+section.aboutus a {
+    color: white;
+    text-decoration: none;
+}
+
+div.blueborder {
+
+    background-color: #00BFF0;
+    padding: 12px 12px;
+}
+
+div.blueborder a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* 3) OUR TRAINERS*/
+h2 {
+    margin-top: 100px;
+    color: #00BFF0;
+    margin: 0 0 3%;
+    text-align: center;
+}
+
+section.rectangle {
+    background-color: #72D0F4;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+section.rectangle1 {
+    background-color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+section.ourtrainers {
+    margin-top: 100px;
+    background-color: white;
+    color: #02b6fc;
+    margin-left: 50px;
+    width: 25%;
+}
+
+div.conteneur2 {
+    padding-right: 20px;
+}
+
+div.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+div.information div.texts em {
+    font-weight: 100;
+}
+
+div.information img {
+    border-radius: 20px;
+}
+
+div.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.ourtrainers1 {
+    margin-top: 100px;
+    background-color: white;
+    color: #02b6fc;
+    margin-left: 50px;
+    width: 25%;
+
+}
+
+section.ourtrainers1 div.texts h3 {
+    color: #72d0f4;
+}
+
+section.ourtrainers1 div.texts p {
+    color: black;
+}
+
+section.ourtrainers1 div.conteneur3 {
+    color: #72d0f4;
+}
+
+
+section.ourtrainers {
+    margin-top: 100px;
+    background-color: white;
+    color: #02b6fc;
+    margin-left: 50px;
+    width: 25%;
+}
+
+section.traines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 90px;
+
+}
+
+section.allcontainers {
+    display: flex;
+    justify-content: center;
+    margin-top: -155px;
+}
+
+section.ensemble {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 4) WHY JOIN ? */
+section.why {
+    display: flex;
+    flex-direction: row;
+    background-color: #72d0f4;
+    margin-top: 100px;
+    padding: 20px;
+    color: white;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+section.whyjoin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    padding-top: 30px;
+}
+
+div.whyjointext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    width: 70%;
+}
+
+div.whyjointext p {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+div.whyjointext h1 {
+    font-size: 30px;
+
+}
+
+div.whyjointext h4 {
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: -20px;
+    margin-bottom: 12px;
+}
+
+
+div.whyjoinbouton a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 10px 80px;
+}
+
+div.whyjoinbouton.box {
+    display: flex;
+    flex-direction: row;
+}
+
+div.whyjoinbouton.white {
+    margin-right: 30px;
+    background-color: white;
+}
+
+div.whyjoinbouton.white a {
+    /* padding: 30px;*/
+    color: #00BFF0;
+    background-color: white;
+    border-color: #00BFF0;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+div.whyjoinbouton.blue a {
+    color: white;
+    background-color: #00BFF0;
+    border-color: #00BFF0;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+div.whyjoinbouton.red a {
+    background-color: red;
+    border-color: red;
+    color: white;
+    padding: 15px 90px;
+    text-decoration: none;
+}
+
+div.whyjointext.black {
+    color: black;
+}
+
+/* 5) Quote ? */
+
+div.lienquote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #02b6fc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+section.quote {
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    padding: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+div.textequote {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.textequote span {
+    color: #73E2FF;
+}
+
+div.textequote p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: #888;
+}
+
+/*  fotter*/
+footer.informations {
+    background-color: #72d0f4;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+}
+section.gauche {
+    width: 30%;
+}
+
+div.insertemail {
+    border: 1px solid #00BFF0;
+    background-color: #B9E8FA;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    color: #00BFF0;
+    width: 250px;
+    margin-bottom: 1%;
+}
+
+div.bouton {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e25050;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    width: 200px;
+    margin-top: 15px;
+}
+
+div.bouton:hover {
+    background-color: #00bff0;
+}
+
+div.bouton a {
+    color: white;
+    text-decoration: none;
+}
+
+section.milieu {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+section.milieu img {
+    width: 40%;
+
+}
+
+section.droite {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 30%;
+}
+
+div.liste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.deuxlistes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+div.donnees {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+div.donnees a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+div.donnees ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    color: white;
+}
+div.contact div.reseau-sociaux ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+div.contact div.reseau-sociaux ul li i {
+    list-style-type: none;
+    color: white;
+
+}
+div.contact div.phone-number i.fas{
+    margin-right: 12px;
+}
+
+
+
+
+
+

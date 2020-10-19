@@ -1,0 +1,514 @@
+        /* 1) BANIERE*/
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+}
+
+div.information div.button a.read-more {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 11px 27px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+div.information div.button a.read-more:hover {
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 11px 27px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+div.information {
+    border: 2px rgba(33, 191, 252, 0.35);
+    height: 250px;
+    width: 500px;
+    color: white;
+    background: rgba(33, 191, 252, 0.35);
+    border-bottom: 5px solid #02b6fc;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+}
+
+header {
+    background-image: url("../resources/banner11.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header.banniere {
+    padding: 200px 200px;
+    padding-bottom: 0px;
+}
+
+header.banniere div.button {
+    padding-top: 12px;
+    text-align: center;
+}
+
+div.information div.button a.read-more:hover {
+    color: black;
+    background-color: white;
+}
+
+div.information h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+div.information h2 {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+div.information p {
+    width: 420px;
+}
+
+div.contact div.reseau-sociaux ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+div.contact div.reseau-sociaux ul li i {
+    list-style-type: none;
+    color: white;
+
+}
+
+div.reseau-sociaux ul {
+    display: flex;
+    flex-direction: row;
+}
+
+div.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    color: white;
+}
+
+div.contact div.phone-number i.fas{
+    margin-right: 12px;
+}
+
+        /* 2) logo + nav*/
+
+div.nav {
+    background-color: #02b6fc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.nav ul.liste {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+div.nav ul.liste li.button a {
+    text-decoration: none;
+
+    padding: 9px 15px;
+    color: white;
+}
+
+div.nav ul.liste li.button a:hover{
+    text-decoration: none;
+
+    border-radius: 5px;
+    padding: 9px 15px;
+    color: #02b6fc;
+    background-color: white;
+}
+        /* 3)image + texte centré*/
+section.description{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+section.description div.informations{
+    margin-top: 20px;
+}
+        /* 4)séances */
+section.seances{
+    display: flex;
+    flex-direction: row;
+}
+div.rectangle{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#72d0f4;
+    width:400px;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+div.rectangle div.texte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+div.rectangle div.texte h1{
+font-weight:600;
+    font-size: 20px;
+    color: white;
+}
+div.rectangle div.texte h2{
+    font-weight:100;
+    font-size: 15px;
+    color: white;
+}
+/* 4) Description du programme*/
+div.tableaux div.prices div.titre{
+    color:#00BFF0
+}
+
+div.tableaux div.prices div.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #00bff0;
+    background-color: #00bff0;
+    color: white;
+    width:300px;
+    height:300px;
+    align-items: center;
+    text-align: center;
+}
+div.tableaux div.prices div.text h1{
+    font-weight:400;
+    font-size:24px;
+
+}
+div.tableaux div.prices div.text p{
+    font-weight:100;
+     font-size:20px;
+}
+div.tableaux div.prices div.text a {
+    color:white;
+    text-decoration:none;
+    border:1px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 12px 15px;
+    text-transform: uppercase;
+}
+/* 5) classes et prices*/
+div.classes{
+    color:white;
+    background-color:#72d0f4;
+    list-style-type: none;
+    margin-top: 12px;
+
+}
+
+div.classes div.seances section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid white;
+    margin: 0 12px;
+}
+div.classes div.seances section div.droite i.fa, section div.gauche i.fa{
+    margin-right: 12px;
+}
+div.global{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items:center;
+}
+div.classes div.seances section div.droite{
+    margin-left: 20px;
+}
+div.tableaux1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.tableaux1 div.titre{
+    color:#00BFF0;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+}
+div.classes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.classes div.toutagauche{
+    border-right: 1px solid white;
+}
+
+/* 6)next envents*/
+
+section.event{
+    background-color: #a5e5fe;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+section.event img{
+    width: 100%;
+}
+section.events{
+    display: flex;
+    flex-direction: column;
+    /*width: 30%;*/
+}
+section.event-date{
+    padding: 20px;
+    color:white;
+}
+section.reservation h2{
+    color: red;
+    font-size:15px;
+}
+section.reservation a {
+    color:red;
+    font-size: 18px;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 5px 7px;
+}
+section.reservation a:hover{
+    color:#00bff0;
+}
+section.events h1{
+    color:#72d0f4;
+    text-align: center;
+    padding-bottom:5px ;
+}
+/*6)FROM THE BLOG*/
+div.titre h1{
+    color:#00BFF0;
+
+}
+
+section.blog div.bloc1,div.bloc2,div.bloc3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:#d4d6d6;
+}
+section.blog div.bloc1 img,div.bloc2 img,div.bloc3 img{
+    margin: 12px;
+}
+section.notice img{
+    width: 100%;
+}
+section.notice h1{
+    color: #72d0f4;
+}
+section.conteneur {
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+}
+
+section.conteneur section.items{
+    width: 30%;
+}
+div.logos ul{
+    list-style-type: none;
+}
+div.logos{
+    display: flex;
+    flex-direction: row;
+
+}
+div.gallery{
+    width: 100%;
+}
+div.gallery img{
+    width: 30%;
+}
+section.conteneur1{
+    display: flex;
+    flex-direction:row-reverse;
+    width: 100%;
+}
+section.conteneur1 div.partner{
+    width:40%;
+    color:#00BFF0;
+}
+section.conteneur1 div.gallery{
+    width:60%;
+    color:#00BFF0;
+
+}
+section.conteneur1 div.gallery img{
+    width: 400px;
+}
+iframe{
+    width: 100%;
+    margin-top: 100px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+/* 9) Opening Hours*/
+section.planning{
+    width:30%;
+background-color: rgba(46, 176, 226, 0.57);
+    color: white;
+}
+section.planning{
+   padding-top: 15px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 15px;
+
+
+}
+section.planning h1{
+    text-align: center;
+}
+ul li.day{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+div.suiteplanning
+{text-align: center;}
+
+div.suiteplanning div.enjoy{
+    font-weight:600;
+    font-size:28px;
+    font-style:italic;
+}
+/*10) Twitter*/
+div.twitter{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+div.twitter div.contenu{
+    color: #00BFF0;
+}
+div.twitter div.contenu span{
+    color: #044C8F;
+}
+div.twitter i.fab{
+    height:200px;
+    width:200px;
+}
+/* 11) fotter*/
+footer.informations{
+    background-color: #72d0f4;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+section.gauche{
+    width:30%;
+}
+div.insertemail{
+    border: 1px solid #00BFF0;
+    background-color: #B9E8FA;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    color: #00BFF0;
+    width: 250px;
+    margin-bottom: 1%;
+}
+div.bouton{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #e25050;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    width: 200px;
+    margin-top: 15px;
+}
+div.bouton:hover{
+    background-color:#00bff0;
+}
+
+div.bouton a{
+    color: white;
+   text-decoration:none;
+}
+section.milieu{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+section.milieu img{
+    width: 40%;
+
+}
+section.droite{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    width: 30%;
+}
+div.liste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.deuxlistes{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+}
+div.donnees{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:40px;
+}
+div.donnees a{
+   text-decoration:none;
+    color:white;
+    padding-left: 10px;
+}
+div.donnees ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+
+
+
