@@ -1,4 +1,5 @@
-$darkblue:#02b6fc;
+$darkblue: #02b6fc;
+$lightblue: #72D0F4;
 body {
   margin: 0;
 }
@@ -18,5 +19,56 @@ section.baniere {
     background-color: $darkblue;
     width: fit-content;
     font-size: 24px;
+  }
+}
+section.seances {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 64%;
+  padding-bottom: 20px;
+
+  div.box {
+    background-color: $lightblue;
+    color: white;
+    padding: 18px 20px;
+
+    h3 {
+      text-align: center;
+    }
+
+    div.action {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a {
+      border: 1px solid white;
+      text-decoration: none;
+      color: white;
+      padding: 12px 12px;
+    }
+
+    div.trainer {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 30px;
+      align-items: center;
+
+      img {
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+      }
+
+      div.nass {
+        margin-left: 20px;
+
+        h4, p {
+          padding: 0;
+          margin: 8px 0 0;
+        }
+
+      }
+    }
   }
 }
