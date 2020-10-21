@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e0e3ba4-b5e2-49a3-b403-d459e5bb13a1" name="Default Changelist" comment="baniere of classes">
+    <list default="true" id="3e0e3ba4-b5e2-49a3-b403-d459e5bb13a1" name="Default Changelist" comment="Les boxes des séances">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/classes.scss" afterDir="false" />
@@ -57,12 +57,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kawtar Checkar\Music\Projets\Perfect_gym_by_kaw - 2\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kawtar Checkar\Music\Projets\Perfect_gym_by_kaw - 2\resources" />
       <recent name="C:\Users\Kawtar Checkar\Music\Projets\Perfect_gym_by_kaw - 2\resources\social" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kawtar Checkar\Music\Projets\Perfect_gym_by_kaw - 2\resources" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +83,7 @@
       <workItem from="1602961916319" duration="7945000" />
       <workItem from="1603020674944" duration="22239000" />
       <workItem from="1603131621052" duration="3380000" />
-      <workItem from="1603135572811" duration="14003000" />
+      <workItem from="1603135572811" duration="19734000" />
     </task>
     <task id="LOCAL-00001" summary="début de développement de classes youpiiii">
       <created>1603136590915</created>
@@ -99,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603143544858</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Les boxes des séances">
+      <created>1603223292571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603223292574</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="début de développement de classes youpiiii" />
     <MESSAGE value="baniere of classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="baniere of classes" />
+    <MESSAGE value="Les boxes des séances" />
+    <option name="LAST_COMMIT_MESSAGE" value="Les boxes des séances" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1603023566295">
@@ -130,10 +138,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603166813404" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603143556379">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1603306399507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603143556379" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603306399507" />
     <state x="337" y="165" key="run.anything.popup" timestamp="1602078707327">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
